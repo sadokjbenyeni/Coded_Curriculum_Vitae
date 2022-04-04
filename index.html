@@ -1,0 +1,204 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+  <style>
+    main {
+  display: flex;
+  flex-direction: row;
+  font-family: beckrock;
+}
+#side {
+  width: 35%;
+  height: auto;
+  background-color: black;
+  font-size: 2vw;
+  color: white;
+}
+
+#central{
+  width: 65%;
+  color: #3A3A38;
+}
+#profile-pic {
+  width: 100%;
+}
+
+#title{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:900;
+  font-size: 7vw;
+  margin-top: 30px;
+}
+
+#subtitle{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:100;
+  font-size: 3vw;
+  margin-top: -25px;
+  color: #696969;
+}
+
+.side-menu{
+  color: #8A8A8B;
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.central-menu{
+  color: #8A8A8B;
+  text-transform: uppercase;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 5px;  
+}
+
+.experience, .study{
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 5px;  
+}
+
+.major{
+  text-transform: uppercase;
+  font-size: 2.5vw;
+  font-weight: 100;
+  margin-left: 5px;  
+}
+
+p {
+  margin-left: 5px;
+  font-size: 2vw;
+}
+.bi{
+  color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 3vw;
+}
+
+.bi:hover{
+  color: yellow;
+}
+
+.side-menus:hover{
+  color:yellow;
+}
+
+svg {
+  fill: #F8DE07;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -3vh;
+  z-index: -1;
+}
+
+@media (max-width: 600px) {
+  
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  #side {
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
+  
+  #profile-pic {
+  width: 30%;
+  border-radius: 50%;
+}
+  #central{
+    width: 100%;
+  }
+
+}
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <section id="side">
+      <div id="personal">
+      <img id="profile-pic" src="https://avatars.githubusercontent.com/u/84320015?s=400&u=7ab51786ce6c6be6be4ed1df1137b36815b056c6&v=4" alt="profile_picture"></img>
+      <div style:"flex-direction: column">
+      <h2 class="side-menu">Contacts</h2>
+      <a href="https://github.com/sadokjbenyeni" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="mailto:sadok.jbenyeni@protonmail.com"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://www.upwork.com/freelancers/~01f989f37438e38cdc?viewMode=1" target="_blank"><i class="bi bi-globe"></i></a>
+      <a href="tel:+21620185757"><i class="bi bi-telephone-fill"></i></a>
+      </div>
+      </div>
+      <h2 class="side-menu">Skills</h2>
+      <p><b>Languages</b><br><span>C#, Javascript, Typescript, HTML, CSS</span></p>
+      <p><b>Dev. Frameworks</b><br><span>Angular, .NET Core, NodeJS, Express, Bootstrap, Angular Material</span></p>
+      <p><b>Databases</b><br><span>SQL Server, MySQL, MongoDB </span></p>
+      <p><b>Methodologies</b><br><span>Agile/Scrum</span></p>
+      <p><b>Testing Frameworks</b><br><span>Karma, Nunit, Jasmine</span></p>
+      <p><b>Cloud Platforms</b><br><span>Heroku, Azure</span></p>
+      <p><b>Version Control</b><br><span>Git, Turtoise</span></p>
+      <h2 class="side-menu">Languages</h2>
+      <p><b>English</b><span></span> B2 Level, 6.5/9 in IELTS</p>
+      <p><b>French</b><span></span> C1 Level, 599/700 in TCF</p>
+      <h2 class="side-menu">Professional Referees</h2>
+    <p><i class="bi bi-person-fill"></i>Morgan Dupire <b>Manager</b> Iress <b>+33637716863</b> dupire.morgan@gmail.com
+      <p>
+    <p><i class="bi bi-person-fill"></i>Mohamed Chaari <b>Manager</b> New Access <b>+21653517616</b> Mohamed.chaari@newaccess.ch</p>
+      <p><i class="bi bi-person-fill"></i>Darko Koenig <b>Supervisor</b> Akademija za Purity <b>+381604346630</b> darko.koenig@gmail.com</p>
+    </section>
+    <section id="central">
+      <h1 id="title">Sadok Jbenyeni</h1>
+      <svg width="50vw" height="2vh">
+         <rect width="50vw" height="2vh"/>
+      </svg>
+      <p id="subtitle">Software Engineer</p>
+      <h2 class="central-menu">Experience</h2>
+      <h3 class="experience">Freelance (September 2020 - Now)</h3>
+      <p>Working as a software engineer on a several projects as a freelancer on and outside of upwork</p>
+      <p><b>1st Application Development</b> Designed and implemented a web application for a group of Quran readers using the MEAN stack</p>
+      <p><b>2nd Application Development</b> Developed a web application for users who are in constant seek of public libraries and are interested in finding the closest one to them at any time</p>
+      <p><b>Key achievement</b> Enhanced the efficieny of old methods and introduced a more modern way of accomplishing work</p>
+      <p><b>Technologies</b> Javascript, Typescript, Angular, Node, Express, MongoDB, CSS3, HTML5, Heroku, MapBox</p>
+            <h3 class="experience">Iress (July 2019 - September 2020)</h3>
+      <p>Full-time software engineer position inside an international stock exchange market data provider</p>
+      <p><b>1st Application Development</b>Designed and implemented event sourcing and command and query responsiblity segregation model for a subscription and payment web services. Contributed to multi-disciplinary web application aimed at developing a cloud hosted solution for testing stock exchange strategies</p>
+      <p><b>2nd Application Development</b> Architected and developed a web application that provides clients with historical market exchange data</p>
+      <p><b>Key achievement</b> Enhanced and secured applications by using different methods of manipulating the data</p>
+      <p><b>Technologies</b> .NET, C#, Angular, Node, Express, MongoDB, Typescript, Javascript, CSS3, HTML5</p>
+      <h3 class="experience">New Access for Bankers (October 2018 - June 2019)</h3>
+      <p>8-month internship with development advanced software solutions firm supporting
+the private banking and wealth management industries with guidance on Quality
+Assurance and testing</p>
+      <p><b>1st Application Development</b> Perfected an algorithm to parse test specification
+document file to test management tool</p>
+      <p><b>2nd Application Development</b> Forged a bi-directional synchronization system for
+sending data between test management tool and Bug tracking tool</p>
+      <p><b>Key achievement</b> Enhanced testers work significantly by reducing wasted time on
+retyping</p>
+      <p><b>Technologies</b> .NET, C#, Microsoft IIS, SQL Server, Javascript, CSS3, HTML5</p>
+      <h2 class="central-menu">Volunteer Experience</h2>
+       <h3 class="experience">Aiesec Serbia – Akademija Za purity (June 2017 – August 2017)</h3>
+      <p>Prepared website for the academy and made an English section for foreign students.
+Secured website content by backing it up. Arranged linking the website to social media
+and make content shareable</p>
+      <p><b>Technologies</b> Wordpress, CSS3, HTML5</p>
+      <h2 class="central-menu">Education</h2>
+      <h3 class="study">Private University Of Engineering And Technology - ESPRIT (2015 - 2019)</h3>
+      <h4 class="major">Master of Computer Science</h4>
+      <h3 class="study">Tunis Preparatory Engineering Institute - IPEIT (2013 - 2015)</h3>
+      <h4 class="major">Fundamental Sciences (Mathematics And Physics)</h4>
+    </section>
+  </main>
+</body>
